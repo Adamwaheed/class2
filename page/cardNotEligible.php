@@ -1,0 +1,1 @@
+<span class='not-eligible'>You are not eligible to vote.</span>

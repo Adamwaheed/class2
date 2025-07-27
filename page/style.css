@@ -1,0 +1,79 @@
+ body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #ece9e6, #ffffff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      background-color: #fff;
+      padding: 2rem 3rem;
+      border-radius: 10px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .card h1 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .card p {
+      font-size: 1.2rem;
+      color: #333;
+    }
+
+    .eligible {
+      color: green;
+      font-weight: bold;
+    }
+
+    .not-eligible {
+      color: red;
+      font-weight: bold;
+    }
+
+
+     .cool-form {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .cool-form input[type="text"] {
+    padding: 0.7rem 1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+    width: 200px;
+    font-size: 1rem;
+  }
+
+  .cool-form input[type="text"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+  }
+
+  .cool-form input[type="submit"] {
+    background: #007bff;
+    color: white;
+    padding: 0.7rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+
+  .cool-form input[type="submit"]:hover {
+    background: #0056b3;
+  }
